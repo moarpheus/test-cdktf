@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "test-cdktf"
+name = "terraform-builder"
 version = "1.0.0"
 description = ""
 authors = ["JG <moarpheus@gmail.com>"]
 readme = "README.md"
+packages = [{include = "terraform_builder"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -11,7 +12,7 @@ pytest = "^8.0.0"
 cdktf = "^0.20.3"
 cdktf-cdktf-provider-aws = "^19.5.0"
 black = "^24.1.1"
-coverage = "0"
+coverage = "^7.4.1"
 flake8 = "^7.0.0"
 
 
