@@ -1,6 +1,6 @@
 {
   "language": "python",
-  "app": "pipenv run python main.py",
+  "app": "poetry run python terraform_builder/__main__.py",
   "projectId": "80abd1a9-c393-4b9e-b04b-51e950c12d1f",
   "sendCrashReports": "false",
   "terraformProviders": [],
